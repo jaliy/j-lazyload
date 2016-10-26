@@ -1,7 +1,10 @@
 #j-lazyload
-一个简单的基于jQuery的图片懒加载插件<br>
-使用方法:<br>$(selector).lazyload(options);
- 
+一个简单的基于jQuery的图片懒加载插件
+##Demo
+[Demo展示](http://jaliy.github.io/lazyload/)
+##使用方法:
+$(selector).lazyload(options);
+##参数选项
  * options.container        {{Object}}      : 滚动监听容器，默认window
  * options.data_src         {{String}}      : 图片来源data-{{data_src}}，默认src，转成元素上的就是data-src
  * options.placeholder      {{String}}      : 图片加载前显示的图片，建议使用较小的图片
